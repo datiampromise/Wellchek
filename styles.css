@@ -1,0 +1,412 @@
+body {
+  font-family: sans-serif;
+  width: 100%;
+  margin: 0 auto;
+
+  h1 {
+    font-size: 96px;
+    font-weight: 100;
+  }
+  h2 {
+    font-size: 72px;
+    margin: 20px 0;
+
+  }
+  h3 {
+    font-size: 36px;
+    margin: 10px 0;
+
+  }
+  h4 {
+    font-size: 24px;
+    font-weight: 300;
+    margin: 10px 0;
+
+  }
+  h5 {
+    font-size: 56px;
+    margin: 10px 0;
+
+
+  }
+  p {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 10px 0;
+
+  }
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: -90px;
+    padding-top: 30px;
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+  .white_text {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+  }
+
+  .hero {
+    background-image: url(/assets/Hero.jpg);
+    object-fit: cover;
+    height: 737px;
+    /* width: 100%;
+    max-width: 100%; */
+     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0 70px;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+    align-items: center;
+    display: grid;
+    justify-content: center;
+  }
+
+  .blue_button {
+    background-color: #007af5;
+    padding: 17px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+  }
+
+  .transparent_button {
+    background-color: none;
+    padding: 17px 20px;
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+    border-radius: 8px;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    display: inline-block;
+  }
+
+  .button_arrow{
+    margin: 0 0 -2px 5px;
+    width: 10%;
+    padding: 2px;
+  }
+
+  .read_tips-button {
+    background-color: none;
+    padding: 20px 0;
+    color: black;
+    font-size: 14px;
+    text-decoration: none;
+
+    display: inline-block;
+  }
+
+  .italic {
+    font-style: italic;
+  }
+
+  .section_two {
+    padding: 50px 0 250px 0 ;
+    text-align: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 3fr  1fr;
+    /* position: relative; */
+  }
+  .wellness_tips-image1 {
+    width: 50%;
+    padding-left: 30px;
+    max-width: 100%;
+    object-fit: cover;
+  }
+  .wellness_tips-image2 {
+    width: 70%;
+    max-width: 100%;
+    object-fit: cover;
+    margin: 0 auto;
+  }
+  .wellness_tips-image3 {
+    width: 50%;
+    max-width: 100%;
+    object-fit: cover;
+    margin-bottom: 30px;
+  }
+  .wellness_tips-image4 {
+    width: 60%;
+    max-width: 100%;
+    object-fit: cover;
+  }
+  .wellness_tips-image5 {
+    width: 85%;
+    max-width: 100%;
+    object-fit: cover;
+    place-self: end;
+  }
+  .wellness_tips-image6 {
+    width: 35%;
+    position: absolute;
+    bottom: -200px;
+    right: 0px;
+    display: block;
+    margin-top: -50px;
+    margin-left: 500px;
+    max-width: 100%;
+    object-fit: cover;
+  }
+  .image_holder-1 {
+    display: grid;
+    justify-content: space-between;
+    gap: 100px;
+  }
+
+  .image_holder-2 {
+    /* display: grid; */
+    /* justify-content: center; */
+    /* gap: 5px; */
+    position: relative;
+    padding: 0 30px;
+    align-items: center;
+    /* place-content: center; */
+  }
+
+  .image_holder-3 {
+    display: grid;
+    justify-content: space-between;
+    gap: 60px;
+  }
+
+  .nurition_matters {
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 1fr 1fr;
+    color: white;
+  }
+  .fertility_section{
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+    padding-bottom: 50px;
+    /* width: 100vw; */
+    color: black;
+  }
+
+  .black {
+    color: black;
+  }
+  .gradient-bg {
+    /* background: linear-gradient(180deg, #343D51 50%, #161A23 50%); */
+    background: linear-gradient(to bottom, #343d51, #161a23);
+    padding: 70px 230px 0 70px;
+  }
+  .white-bg {
+    padding: 70px 230px 0 70px;
+  }
+  .family {
+    height: 738px;
+    /* width: 100%; */
+  }
+
+  .jogging_lady {
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+  }
+
+  .section_three {
+    text-align: center;
+    width: 75%;
+    margin: 0 auto;
+    padding: 50px 0;
+  }
+
+  .section_three-p {
+    text-align: center;
+    width: 400px;
+    padding: 0 60px;
+    margin: 0 auto;
+  }
+
+
+  .section_four {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 70px 3fr 1fr;
+    gap: 30px;
+    width: 100%;
+    padding: 50px 0;
+  }
+  .rotate {
+    writing-mode: vertical-rl;
+    /* margin-right: 10px; */
+    align-self: flex-end;
+    transform: rotate(180deg);
+    margin-bottom: 40px;
+    margin-left: 30px;
+  }
+
+  .group {
+    /* width: 349px; */
+    display: grid;
+justify-content: space-between;
+  }
+
+  .section_five {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 0px 15px 20px 15px;
+
+  }
+
+  .section_six {
+    padding: 70px;
+  }
+
+  .see_wellness-tips {
+    text-align: center;
+    border-top: #161a23 1px solid;
+    border-bottom: #161a23 1px solid;
+    padding: 10px;
+    margin: 20px 0;
+  }
+
+  .cards {
+    background: #fff;
+    flex: 1;
+    min-height: 300px;
+    overflow: hidden;
+  }
+
+  .posts {
+    margin: 0 auto;
+    display: flex;
+    gap: 24px;
+  }
+  .photo {
+    max-width: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+
+
+  .star-rating {
+    margin-right: 5px;
+    display: flex;
+  }
+
+  .sign_up {
+    background-image: url(/assets/stones.jpg);
+    object-fit: cover;
+    /* width: 100%;
+    max-width: 100%; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px 70px;
+    color: white;
+    text-align: center;
+    align-items: center;
+    display: grid;
+    gap: 80px;
+    margin: 0 auto;
+    justify-content: space-around;
+  }
+
+  .signup-container {
+    background-color: transparent;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+  }
+
+  h2 {
+    color: #333;
+  }
+
+  form {
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+  }
+
+  input {
+    margin: 10px 0;
+    padding: 16px 6px 16px 16px;
+    /* width: 100%; */
+    height: 50px;
+    min-width: 358px;
+    border-radius: 8px;
+    border: solid 1px white;
+    background-color: transparent;
+    box-sizing: border-box;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+  }
+
+  ::placeholder {
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    opacity: 0.7;
+  }
+
+  button {
+    background-color: #007af5;
+    color: #fff;
+    border: none;
+    padding: 12px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    margin-left: -78px;
+  }
+
+  button:hover {
+    background-color: white;
+    color: #007af5;
+  }
+
+  .footer {
+    background: linear-gradient(to bottom, #343d51, #161a23);
+    padding: 100px 70px 30px 70px;
+    color: white;
+    height: 677px;
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .footer_menu {
+    opacity: 0.5;
+    margin-top: 50px;
+  }
+  .footer-one {
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 3px;
+    border-top: white 1px solid;
+    border-bottom: white 1px solid;
+    padding: 10px 0;
+  }
+
+
+}
